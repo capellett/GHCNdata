@@ -1,16 +1,23 @@
-Package: GHCNdata
 Type: Package
+Package: GHCNdata
 Title: Data from the Global Historical Climatological Network
 Version: 0.1.0
-Author: C A Pellett
-Maintainer: <c.alex.pellett@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: c(
+    person("C A", "Pellett", , "c.alex.pellett@gmail.com", role = c("aut", "cre")),
+    person("State of South Carolina Department of Natural Resources", role = "fnd")
+  )
+Description: More about what it does (maybe more than one line) Use four
+    spaces when indenting paragraphs within the Description.
 License: file LICENSE
-Encoding: UTF-8
-LazyData: true
+URL: https://github.com/capellett/GHCNdata
+BugReports: https://github.com/capellett/GHCNdata/issues
 Suggests: 
     knitr,
     rmarkdown,
-    testthat
-VignetteBuilder: knitr
+    testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
